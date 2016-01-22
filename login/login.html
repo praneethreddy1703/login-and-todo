@@ -1,0 +1,21 @@
+<html>
+<head></head>
+<link rel="stylesheet" type="text/css" href="login.css">
+<form action="login.php" method="post" name="login" onSubmit="return val1() "><center>
+ <div>
+ 	Email ID : <input class="c" type="text" name="email" autocomplete="off" 
+ 	placeholder="Enter Email Id" id="emailids" onkeyup="loginMail()" /><br>
+ 	<span><p id="p1"></p></span>
+ 	Password : <input class="c" type="password" name="password"  placeholder="*********" id="security" onkeyup="loginPass()"/><br>
+ 	<span><p id="p2"></p></span>
+ 	<input class="b" type="submit" name="login" value="LOG IN"  />
+ </form>
+ <form action="login.php" method="post">
+    <input class="b" type="submit" name="signup" value="SIGN UP"  />
+ </div>
+</center></form>
+
+<body>
+<script src="log.js"></script>
+</body>
+</html>

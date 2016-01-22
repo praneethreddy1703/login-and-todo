@@ -1,0 +1,44 @@
+body {
+    background-image: url("http://inkensoul.com/wp-content/uploads/2014/12/pen-on-paper.jpg");
+    background-size: cover;
+    height:auto;
+    background-position: center center;
+}
+div{
+	width: 261px;
+	margin-top:-50px;
+	border-radius: 2px;
+	border:solid 2px;
+	border-color: lightblue;
+}
+div input{
+
+	margin:10px 10px 10px 10px;
+	height:30px;
+	width :200px;
+	border-radius:8px;
+}
+div textarea{
+	margin-right: 10px;
+	height:40px;
+	width: 200px;
+	border-radius:8px;
+}
+#b{
+	color:orange;
+	margin-top:-45px;
+	margin-left:1040px;
+	height:30px;
+	width:150px;
+	border-radius: 8px;
+}
+#a{
+	color:orange;
+	margin-left:1200px;
+	height:30px;
+	width:150px;
+	border-radius: 8px;
+}
+h1{
+	color:orange;
+}

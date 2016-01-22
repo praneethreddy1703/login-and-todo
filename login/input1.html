@@ -1,0 +1,35 @@
+<html>
+<link rel="stylesheet" type="text/css" href="input1.css">
+<head>
+	<title>TO DO LIST</title>
+	<h1><center>TO DO LIST</center></h1>
+</head>
+
+
+<form method="post" action="todo.php">
+	<p><input  id="a" type="submit" name="logout" value="LOG OUT"></p>
+	<p><input id="b" type="submit" name="changes" value="Change Password" /></p>
+</form>
+
+<form method="post" action="todo.php" onsubmit="return val()">
+
+<center>
+<div>
+	Date: <input  type="date" name="dates" placeholder="YYYY/MM/DD" id="date" ><br />
+	<span><p id="p1"></p></span>
+	Events:<textarea  type="text" name="events" placeholder="Max Characters are 50" id="list" ></textarea><br />
+	<span><p id="p2"></p></span>
+	<input  type="reset" name="reset" value="Clear"><br/>
+	<input  type="submit" name="save" value="Add to the List"><br/>
+</form>
+<form method="post" action="todo.php">
+	<input  type="submit" name="display" value="Display">
+</form>
+</div>
+</center>
+</form>
+<body>
+	<script src="todo.js">
+	</script>
+</body>
+</html>
